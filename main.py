@@ -36,7 +36,7 @@ user_prompt = st.text_input(label="Enter some keywords in the text box below to 
 # user_prompt = 'geographic features, (Global)'
 
 prompt_template=f"""
-You are a hedge name generator. Given a theme I want you to provide the top 3 names you can come up with. 
+You are a hedge fund name generator. Given a theme I want you to provide the top 3 names you can come up with. 
 Make sure not to closely replicate existing hedge fund names. 
 
 {user_prompt}
