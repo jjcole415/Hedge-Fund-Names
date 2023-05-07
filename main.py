@@ -29,6 +29,7 @@ def getNameChat(messages):
 
 
 st.title("Hedge Fund Name Generator")
+st.text("Powered by OpenAI's ChatGPT")
 st.divider()
 user_prompt = st.text_input(label="Enter some keywords in the text box below to generate some names.")
 
