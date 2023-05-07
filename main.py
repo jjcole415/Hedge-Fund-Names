@@ -1,4 +1,4 @@
-import os
+
 import openai
 import streamlit as st
 
@@ -47,5 +47,9 @@ messages = [{"role": "user", "content": prompt_template}]
 response = getNameChat(messages=messages)
 st.write ("Here are some ideas:")
 st.write(response.choices[0].message.content)
+
+st.divider()
+
+st.write("To talk more about some real hedge funds or talk about data science and AI, reach out to me on [LinkedIn](https://www.linkedin.com/in/jonathan-cole-7852a33/).")
 
 
