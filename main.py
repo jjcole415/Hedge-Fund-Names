@@ -50,6 +50,6 @@ st.write(response.choices[0].message.content)
 
 st.divider()
 
-st.write("To talk more about some real hedge funds or talk about data science and AI, reach out to me on [LinkedIn](https://www.linkedin.com/in/jonathan-cole-7852a33/).")
+st.write("To talk more about some real hedge funds or discuss data science and AI, reach out to me on [LinkedIn](https://www.linkedin.com/in/jonathan-cole-7852a33/).")
 
 
